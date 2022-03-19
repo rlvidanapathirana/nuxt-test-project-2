@@ -15,8 +15,44 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+
+       //CSS
+       {
+        href: "/assets/css/all.css",
+        rel: "stylesheet"
+      },
+
+      {
+        href: "/assets/css/bootstrap.min.css",
+        rel: "stylesheet"
+      },
+
+      // {
+      //   href: "https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css",
+      //   rel: "stylesheet"
+      // },
+
+      // {
+      //   href: "https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js",
+      //   rel: "stylesheet"
+      // },
+
+    ],
+    // JavaScripts
+    script: [{
+      type: "text/JavaScripts",
+      src: "/assets/js/bootstrap.bundle.min.js",
+    },
+
+    {
+      type: "text/JavaScripts",
+      src:"/assets/js/build.js",
+    },
+
+
     ]
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
