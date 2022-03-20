@@ -18,13 +18,38 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
 
        //CSS
-       {
-        href: "/assets/css/all.css",
+      //  {
+      //   href: "/assets/css/all.css",
+      //   rel: "stylesheet"
+      // },
+
+      // {
+      //   href: "/assets/css/bootstrap.min.css",
+      //   rel: "stylesheet"
+      // },
+      //
+      {
+        href: "/assets\css\simplebar.css",
         rel: "stylesheet"
       },
-
       {
-        href: "/assets/css/bootstrap.min.css",
+        href: "/assets/css/vendors/simplebar.css",
+        rel: "stylesheet"
+      },
+      {
+        href: "/assets/css/style.css",
+        rel: "stylesheet"
+      },
+      {
+        href: "/assets/css/prism.css",
+        rel: "stylesheet"
+      },
+      {
+        href: "/assets/css/coreui-chartjs.css",
+        rel: "stylesheet"
+      },
+      {
+        href: "https://www.googletagmanager.com/gtag/js?id=UA-118965717-1",
         rel: "stylesheet"
       },
 
@@ -42,12 +67,58 @@ export default {
     // JavaScripts
     script: [{
       type: "text/JavaScripts",
-      src: "/assets/js/bootstrap.bundle.min.js",
+      src: "/assets/js/coreui.bundle.min.js",
     },
 
     {
       type: "text/JavaScripts",
-      src:"/assets/js/build.js",
+      src:"/assets/js/simplebar.min.js",
+    },
+
+    {
+      type: "text/JavaScripts",
+      src:"/assets/js/prism.js",
+    },
+
+    {
+      type: "text/JavaScripts",
+      src:"/assets/js/prism-autoloader.min.js",
+    },
+
+    {
+      type: "text/JavaScripts",
+      src:"/assets/js/prism-unescaped-markup.min.js",
+    },
+
+    {
+      type: "text/JavaScripts",
+      src:"/assets/js/prism-normalize-whitespace.js",
+    },
+
+    {
+      type: "text/JavaScripts",
+      src:"/assets/js/chart.min.js",
+    },
+
+    {
+      type: "text/JavaScripts",
+      src:"/assets/js/coreui-chartjs.js",
+    },
+
+    {
+      type: "text/JavaScripts",
+      src:"/assets/js/coreui-utils.js",
+    },
+
+    {
+      type: "text/JavaScripts",
+      src:"/assets/js/main.js",
+    },
+
+
+    {
+      type: "text/JavaScripts",
+      src:"/assets/js/popovers.js",
     },
 
 
