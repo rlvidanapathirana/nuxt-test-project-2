@@ -27,7 +27,7 @@ export default {
       //   href: "/assets/css/bootstrap.min.css",
       //   rel: "stylesheet"
       // },
-      //
+      ///
       {
         href: "/assets\css\simplebar.css",
         rel: "stylesheet"
